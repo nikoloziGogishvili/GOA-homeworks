@@ -4,13 +4,19 @@ shape("turtle")
 
 speed(100000000000)
 width(5)
-penup()
+
+
+penup()              # ვიწყებთ სასახლის აშენებას
 goto(-550, -400)
 pendown()
+
+
+
 forward(1200)
 goto(-550, -400)
-left(90)
 
+
+left(90)
 forward(500)
 right(90)
 forward(200)
@@ -58,6 +64,8 @@ left(90)
 forward(1400)
 left(90)
 
+
+
 forward(500)
 left(90)
 forward(200)
@@ -107,6 +115,8 @@ right(90)
 forward(400)
 left(90)
 
+
+
 forward(1000)
 right(180)
 forward(200)
@@ -139,10 +149,13 @@ right(90)
 forward(200)
 left(90)
 forward(400)
+left(90)                   # აქ დასრულდა სასახლის კედლები
+
+
+
+forward(350)                # აქედან ვაკეთებთ კარებს
 left(90)
 
-forward(350)
-left(90)
 forward(230)
 right(45)
 forward(100)
@@ -150,7 +163,7 @@ right(90)
 forward(100)
 right(45)
 forward(230)
-
+                          #აქედან ვიწყებთ აგურებით გაფორმებას
 penup()
 goto(-365, -380)
 pendown()
@@ -293,7 +306,7 @@ right(90)
 forward(80)
 right(90)
 forward(40)
-
+                               # აქ დავასრულეთ კედლების აგურებით გაფორმება
 penup()
 goto(-130, -170)
 pendown()
@@ -355,9 +368,9 @@ forward(90)
 left(60)
 forward(90)
 left(90)
-forward(30)
-
-penup()
+forward(30)                 # აქ ვასრულებთ ფანჯრების გაკეთებას
+                                      
+penup()                     # ვხატავთ მეფეს
 goto(-460, 230)
 pendown()
 
@@ -428,7 +441,7 @@ penup()
 goto(-410, 433)
 pendown()
 
-color("yellow")
+color("yellow")       # ვიწყებთ მეფის გვირგვინის დახატვას
 forward(90)
 
 penup()
@@ -448,9 +461,9 @@ forward(50)
 right(70)
 forward(30)
 left(130)
-forward(44)
+forward(44)               # ვასრულებთ მეფის გვირგვინს
 
-penup()
+penup()                   # ვხატავთ დროშას
 goto(-400, 230)
 pendown()
 
@@ -467,9 +480,9 @@ forward(180)
 
 penup()
 goto(-350, 380)
-pendown()
+pendown()                # დავასრულეთ დროშის დახატვა
 
-left(180)
+left(180)                # დროშას ვაწერთ GOA-ს
 circle(-20, -190)
 left(267)
 forward(17)
@@ -495,9 +508,9 @@ forward(40)
 left(180)
 forward(15)
 left(45)
-forward(10)
+forward(10)          # დავაწერეთ დროშას GOA
 
-penup()
+penup()              # ვხატავთ დედოფალს
 goto(770, 245)
 pendown()
 right(55)
@@ -620,7 +633,7 @@ right(20)
 right(180)
 forward(60)
 right(160)
-forward(60)
+forward(60)         # დავხატეთ დედოფალი
 
 
 
