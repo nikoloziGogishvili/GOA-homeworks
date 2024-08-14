@@ -1,0 +1,36 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+#nika {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+    
+}
+
+div {
+    text-align: center;
+}
+
+input[type="email"], input[type="password"] {
+    background-color: #42ecf5;
+    font-size: large;
+
+}
+
+label {
+    color: blue;
+    font-size: larger;
+}
+
+button {
+    color: black;
+    background-color: lightgreen;
+    font-size: large;
+}
